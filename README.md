@@ -8,10 +8,14 @@ Features
 
 The following features are considered for each startup:
 
-Company
-Sector
-Location
-Select Investors
+   1. Company
+   
+   2. Sector
+   
+   3. Location
+   
+   4. Select Investors
+
 
 How it Works
 
@@ -27,12 +31,18 @@ The recommended investors for the new startup are extracted from the most simila
 **2. Predict Valuation**
 This is a Python function that predicts the valuation of a company based on various input parameters. The function takes the following inputs:
 
-sector: The sector to which the company belongs.
-subsector: The sub-sector of the company.
-entryvaluation: The entry valuation of the company in billions of dollars ($B).
-entry: The entry point of the company.
-location: The location of the company.
-investors: List of investors.
+   1. sector: The sector to which the company belongs.
+   
+   2. subsector: The sub-sector of the company.
+   
+   3. entryvaluation: The entry valuation of the company in billions of dollars ($B).
+   
+   4. entry: The entry point of the company.
+   
+   5. location: The location of the company.
+   
+   6. investors: List of investors.
+
 
 The function performs the following steps:
 
@@ -102,11 +112,17 @@ Function Description
 
 The get_time_to_unicorn function takes the following input parameters:
 
-founded: The year the startup was founded.
-sector: The sector to which the startup belongs.
-subsector: The sub-sector to which the startup belongs.
-entryvaluation: The initial valuation of the startup at the time of entry.
-location: The location of the startup.
+   1. founded: The year the startup was founded.
+   
+   2. sector: The sector to which the startup belongs.
+   
+   3. subsector: The sub-sector to which the startup belongs.
+   
+   4. entryvaluation: The initial valuation of the startup at the time of entry.
+   
+   5. location: The location of the startup.
+
+
 The function performs the following steps:
 
 Selects relevant features for the model from the input data, including 'Founded', 'Sector', 'Sub-Sector', 'Entry Valuation^^ ($B)', and 'Location'.
